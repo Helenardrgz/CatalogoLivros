@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://64.media.tumblr.com/1d4ef755d8610e63e7239fbe55769b68/b34915e594575198-4d/s1280x1920/73ab66956874ce11069ead8a2bebe70626490fb0.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-family: "Parisienne", cursive;
+  font-size: 12vh;
+  font-weight: normal;
+  line-height: 70px;
+}
+
+.page-subtitle {
+  color: black;
+  margin-top: 12vh;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.page-logo {
+  width: 18vh;
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-weight: normal;
+}
+
+.form-wrapper button {
+  border: 1px solid white;
+  color: white;
+  background: #cc8559;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
